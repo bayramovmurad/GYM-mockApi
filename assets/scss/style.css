@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none !important;
+  text-decoration: none !important;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  border-radius: 0;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 5%;
+  margin: auto;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+#top-header {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  background-color: white;
+}
+#top-header #top-section {
+  border-bottom: 1px solid rgb(167, 164, 164);
+}
+#top-header #top-section .top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#top-header #top-section .top-section .fa-bars {
+  display: none;
+}
+#top-header #top-section .top-section .top-title {
+  width: 20%;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+#top-header #top-section .top-section .tel {
+  display: flex;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+#top-header #top-section .top-section .tel p {
+  padding-top: 25px;
+  font-size: 14px;
+}
+#top-header #top-section .top-section .tel .fa-phone {
+  color: white;
+  background-color: #f6214b;
+  padding: 30px 30px;
+}
+@media screen and (max-width: 991px) {
+  #top-header #top-section {
+    padding: 10px 0;
+  }
+  #top-header #top-section .top-section .fa-bars, #top-header #top-section .top-section .fa-xmark {
+    display: block;
+    font-size: 24px;
+    color: red;
+  }
+  #top-header #top-section .top-section .tel {
+    display: none;
+  }
+  #top-header #top-section .top-section .top-title {
+    display: none;
+  }
+}
+#top-header .burger-menu {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100vh;
+  position: fixed;
+  z-index: 9999;
+  width: 70%;
+  top: 0;
+  transition: transform 3s;
+}
+#top-header .burger-menu ul {
+  padding-top: 30px;
+}
+#top-header .burger-menu ul li {
+  padding-bottom: 15px;
+}
+#top-header .burger-menu .burger-ul li .dropdown #dropdownMenuButton1 {
+  color: white;
+}
+#top-header .burger-menu .burger-ul li .dropdown .dropdown-menu li a {
+  color: black;
+}
+#top-header .burger-menu .burger-ul li a {
+  color: white;
+}
+#top-header .burger-menu.show {
+  display: block;
+}
+#top-header header {
+  padding: 15px 0;
+}
+#top-header header .header nav .nav-ul {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#top-header header .header nav .nav-ul li a {
+  color: black;
+  font-size: 12px;
+}
+#top-header header .header nav .nav-ul li a:hover {
+  color: red;
+}
+#top-header header .header nav .nav-ul li .dropdown #dropdownMenuButton1 {
+  font-size: 12px;
+  padding: 0;
+}
+@media screen and (max-width: 991px) {
+  #top-header header {
+    display: none;
+  }
+}
+
+#hero-banner {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 200px 0;
+  position: relative;
+  background-image: url("/assets/image/header-bg.jpg");
+}
+#hero-banner .opacity {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+}
+#hero-banner .hero-banner .hero-title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  color: white;
+  z-index: 5;
+}
+#hero-banner .hero-banner .hero-title h1 {
+  max-width: 800px;
+  font-size: 60px;
+}
+@media screen and (max-width: 991px) {
+  #hero-banner .hero-banner .hero-title h1 {
+    font-size: 45px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,125 @@
+#top-header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    #top-section {
+      //   padding: 10px 0;
+      border-bottom: 1px solid rgb(167, 164, 164);
+      .top-section {
+        @include flexbox();
+        .fa-bars {
+          display: none;
+        }
+        .top-title {
+          width: 20%;
+          margin: 0;
+          font-size: 14px;
+          font-weight: 500;
+        }
+        .tel {
+          display: flex;
+          column-gap: 10px;
+          p {
+            padding-top: 25px;
+            font-size: 14px;
+          }
+          .fa-phone {
+            color: white;
+            background-color: #f6214b;
+            padding: 30px 30px;
+          }
+        }
+      }
+      @media screen and (max-width: 991px) {
+        padding: 10px 0;
+        .top-section {
+          .fa-bars, .fa-xmark {
+            display: block;
+            font-size: 24px;
+            color: red;
+          }
+        
+          .tel {
+            display: none;
+          }
+          .top-title {
+            display: none;
+          }
+        }
+      }
+    }
+  
+    .burger-menu {
+      display: none;
+      background-color: rgb(0, 0, 0, 0.9);
+      height: 100vh;
+      position: fixed;
+      z-index: 9999;
+      width: 70%;
+      top: 0;
+      transition: transform 3s;
+      ul{
+        padding-top: 30px;
+        li{
+          padding-bottom: 15px;
+        }
+      }
+      .burger-ul {
+        li {
+          .dropdown {
+            #dropdownMenuButton1 {
+              color: white;
+            }
+            .dropdown-menu {
+              li {
+                a {
+                  color: black;
+                }
+              }
+            }
+          }
+          a {
+            color: white;
+          }
+        }
+      }
+      &.show{
+        display: block;
+      }
+    }
+    header {
+      padding: 15px 0;
+      .header {
+        nav {
+          .nav-ul {
+            margin-bottom: 0;
+            display: flex;
+            justify-content: center;
+            column-gap: 30px;
+  
+            li {
+              a {
+                color: black;
+                font-size: 12px;
+                &:hover {
+                  color: red;
+                }
+              }
+              .dropdown {
+                #dropdownMenuButton1 {
+                  font-size: 12px;
+                  padding: 0;
+                }
+              }
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 991px) {
+        display: none;
+      }
+    }
+  }
+  
