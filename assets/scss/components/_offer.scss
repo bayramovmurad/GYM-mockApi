@@ -1,0 +1,104 @@
+#offer-sec {
+    padding: 70px 0;
+    .offer-sec {
+      .offer-title {
+        text-align: center;
+        h2 {
+          font-size: 36px;
+          font-weight: 600;
+        }
+        p {
+          font-size: 14px;
+          color: #7777;
+        }
+      }
+      .search-sort {
+        @include flexbox();
+        input {
+          padding: 6px 20px;
+          border: none;
+          background-color: rgba(246, 33, 75, 0.3);
+          // color: white;
+        }
+      }
+      .sort {
+        padding: 6px 20px;
+        border: 2px solid transparent;
+        // color: white;
+        background-color: rgba(246, 33, 75, 0.3);
+        &:hover {
+          background-color: transparent;
+          border-color: rgba(246, 33, 75, 0.3);
+        }
+      }
+      .offer-row {
+        .card {
+          // box-shadow: red;
+          box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+          padding: 20px 15px;
+          .img {
+            display: flex;
+            justify-content: center;
+            padding: 30px 0;
+          }
+          .content {
+            text-align: center;
+            margin-bottom: 16px;
+            h5 {
+              font-size: 18px;
+              padding-bottom: 10px;
+            }
+            p {
+              font-size: 14px;
+              color: #7777;
+            }
+          }
+          .icons {
+            // @include flexbox();
+            display: flex;
+            justify-content: center;
+            column-gap: 30px;
+            a {
+              color: rgba(246, 33, 75);
+              &:hover {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+      .button {
+        display: flex;
+        justify-content: center;
+        #showmore {
+          border: none;
+          background-color: #f6214b;
+          padding: 7px 15px;
+          color: white;
+          border: 1px solid transparent;
+          transition: 1s;
+          &:hover {
+            background-color: transparent;
+            border-color: #f6214b;
+            color: #f6214b;
+          }
+        }
+          #lessmore {
+            border: none;
+            display: none;
+            background-color: #f6214b;
+            padding: 7px 15px;
+            color: white;
+            border: 1px solid transparent;
+            transition: 1s;
+            &:hover {
+              background-color: transparent;
+              border-color: #f6214b;
+              color: #f6214b;
+            }
+          // text-align: center;
+        }
+      
+    }
+  }
+  }

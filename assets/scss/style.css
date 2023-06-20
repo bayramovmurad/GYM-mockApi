@@ -205,4 +205,102 @@ body {
   #hero-banner .hero-banner .hero-title h1 {
     font-size: 45px;
   }
+}
+
+#offer-sec {
+  padding: 70px 0;
+}
+#offer-sec .offer-sec .offer-title {
+  text-align: center;
+}
+#offer-sec .offer-sec .offer-title h2 {
+  font-size: 36px;
+  font-weight: 600;
+}
+#offer-sec .offer-sec .offer-title p {
+  font-size: 14px;
+  color: rgba(119, 119, 119, 0.4666666667);
+}
+#offer-sec .offer-sec .search-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#offer-sec .offer-sec .search-sort input {
+  padding: 6px 20px;
+  border: none;
+  background-color: rgba(246, 33, 75, 0.3);
+}
+#offer-sec .offer-sec .sort {
+  padding: 6px 20px;
+  border: 2px solid transparent;
+  background-color: rgba(246, 33, 75, 0.3);
+}
+#offer-sec .offer-sec .sort:hover {
+  background-color: transparent;
+  border-color: rgba(246, 33, 75, 0.3);
+}
+#offer-sec .offer-sec .offer-row .card {
+  box-shadow: 0px 20px 60px 0px rgba(246, 33, 75, 0.3);
+  padding: 20px 15px;
+}
+#offer-sec .offer-sec .offer-row .card .img {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+}
+#offer-sec .offer-sec .offer-row .card .content {
+  text-align: center;
+  margin-bottom: 16px;
+}
+#offer-sec .offer-sec .offer-row .card .content h5 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+#offer-sec .offer-sec .offer-row .card .content p {
+  font-size: 14px;
+  color: rgba(119, 119, 119, 0.4666666667);
+}
+#offer-sec .offer-sec .offer-row .card .icons {
+  display: flex;
+  justify-content: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+#offer-sec .offer-sec .offer-row .card .icons a {
+  color: rgb(246, 33, 75);
+}
+#offer-sec .offer-sec .offer-row .card .icons a:hover {
+  color: black;
+}
+#offer-sec .offer-sec .button {
+  display: flex;
+  justify-content: center;
+}
+#offer-sec .offer-sec .button #showmore {
+  border: none;
+  background-color: #f6214b;
+  padding: 7px 15px;
+  color: white;
+  border: 1px solid transparent;
+  transition: 1s;
+}
+#offer-sec .offer-sec .button #showmore:hover {
+  background-color: transparent;
+  border-color: #f6214b;
+  color: #f6214b;
+}
+#offer-sec .offer-sec .button #lessmore {
+  border: none;
+  display: none;
+  background-color: #f6214b;
+  padding: 7px 15px;
+  color: white;
+  border: 1px solid transparent;
+  transition: 1s;
+}
+#offer-sec .offer-sec .button #lessmore:hover {
+  background-color: transparent;
+  border-color: #f6214b;
+  color: #f6214b;
 }/*# sourceMappingURL=style.css.map */
