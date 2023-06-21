@@ -2,5 +2,9 @@
 @import "./base/global";
 @import "./utility/mixin";
 @import "./components/header";
-@import "./components/hero-banner";
-@import "./components/offer";
+@import "./layout/hero-banner";
+@import "./layout/offer";
+@import "./layout/course";
+@import "./layout/transaction";
+@import "./components/footer"
+

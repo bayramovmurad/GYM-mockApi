@@ -303,4 +303,121 @@ body {
   background-color: transparent;
   border-color: #f6214b;
   color: #f6214b;
+}
+
+#courses {
+  padding: 50px 0;
+}
+#courses .courses .courses-title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#courses .courses .courses-title h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+#courses .courses .courses-title p {
+  font-size: 14px;
+  color: rgba(119, 119, 119, 0.4666666667);
+  font-weight: 300;
+}
+#courses .courses .courses-row .card {
+  border: none;
+}
+#courses .courses .courses-row .card:hover img {
+  transform: scale(1.2);
+}
+#courses .courses .courses-row .card .img {
+  overflow: hidden;
+}
+#courses .courses .courses-row .card .img img {
+  width: 100%;
+  transition: 0.7s;
+  position: relative;
+}
+#courses .courses .courses-row .card .img-title {
+  left: 5%;
+  bottom: 30%;
+  position: absolute;
+  padding: 10px 30px;
+  background-color: #F6214B;
+  z-index: 8;
+  color: white;
+}
+#courses .courses .courses-row .card .course-content {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#courses .courses .courses-row .card .course-content h4, #courses .courses .courses-row .card .course-content h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+#courses .courses .courses-row .card .course-content h5 {
+  color: #F6214B;
+}
+
+#transaction {
+  background-image: url("/assets/image/callto-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px 0;
+  position: relative;
+}
+#transaction .opacity2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1;
+}
+#transaction .transaction-title {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin: 0;
+  color: white;
+}
+#transaction .transaction-title button {
+  padding: 10px 30px;
+  background-color: #f6214b;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  color: white;
+  transition: 0.5s;
+}
+#transaction .transaction-title button:hover {
+  background-color: transparent;
+  border-color: white;
+}
+
+footer {
+  padding: 60px 0;
+}
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+}
+footer .footer .footer-title p a {
+  color: red;
+}
+footer .footer .icons i {
+  padding: 10px 15px;
+  background-color: black;
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
+footer .footer .icons i:hover {
+  background-color: rgb(246, 33, 75);
+}
+@media screen and (max-width: 991px) {
+  footer .footer {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
