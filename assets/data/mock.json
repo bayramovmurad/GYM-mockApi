@@ -1,0 +1,48 @@
+{
+    "offers": [
+      {
+        "title": "Regular Exercise",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+        "img": "./assets/image/o1.png",
+        "price": "22$",
+        "id": 13
+      },
+      {
+       "title": "Regular Exercise",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+        "img": "./assets/image/o2.png",
+        "price": "22$",
+        "id": 13
+      },
+      {
+        "title": "Regular Exercise",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+        "img": "./assets/image/o3.png",
+        "price": "30$",
+        "id": 12
+      },
+      {
+       "title": "Regular Exercise",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+        "img": "./assets/image/o1.png",
+        "price": "45$",
+        "id": 13
+      },
+      {
+       "title": "Regular Exercise",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+        "img": "./assets/image/o2.png",
+        "price": "12$",
+        "id": 13
+      },
+      {
+        "title": "Regular Exercise",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+        "img": "./assets/image/o3.png",
+        "price": "99.99$",
+        "id": 12
+      }
+     
+    ],
+    "baskets": []
+  }

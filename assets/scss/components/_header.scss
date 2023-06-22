@@ -59,7 +59,7 @@
       z-index: 9999;
       width: 70%;
       top: 0;
-      transition: transform 3s;
+      transition: transform 3s !important; 
       ul{
         padding-top: 30px;
         li{
@@ -98,6 +98,7 @@
             display: flex;
             justify-content: center;
             column-gap: 30px;
+
   
             li {
               a {
