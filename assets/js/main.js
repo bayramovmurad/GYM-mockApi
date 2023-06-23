@@ -88,3 +88,29 @@ lessMore.addEventListener("click", function () {
         getAllData();
     }
 });
+
+sort.addEventListener("click", function () {
+    if (sort.innerHTML == "Sort") {
+      searcedData = searcedData.sort((a, b) => a.price - b.price);
+      sort.innerHTML = "Ascending";
+    } else if (sort.innerHTML == "Ascending") {
+      searcedData = searcedData.sort((a, b) => b.price - a.price);
+      sort.innerHTML = "Descending";
+    } else {
+      sort.innerHTML = "Sort";
+    }
+    drawCards(searcedData.slice(0, max));
+  });
+  
+  search.addEventListener("input", function (e) {
+    searcedData = allData;
+    searcedData = searcedData.filter((item) =>
+      item.title.toLowerCase().includes(e.target.value.toLowerCase())
+    );
+    drawCards(searcedData.slice(0, max));
+  });
+  
+  async function deleteCard(id) {
+    await axios.delete(`${BASE_URL}/${id}`);
+    await axios.delete(`${BASE_URL2}/${id}`);
+  }
